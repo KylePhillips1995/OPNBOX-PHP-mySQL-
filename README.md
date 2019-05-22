@@ -1,0 +1,2 @@
+# OPNBOX-PHP-mySQL-
+OPNBOX is a virtual campus for educators, designed to give students and educators access to quiz material on a open platform. The goal and design behind OPNBOX is simple but effective with future implementation ideas involving group oriented team building exercises. Using in quiz tools such as advanced calculators, interactive periodic tables, and grammar and spell checkers, users will be able to proceed through a teachers exam with progression being saved and displayed to the teacher either at the time of input or as a collective result.
