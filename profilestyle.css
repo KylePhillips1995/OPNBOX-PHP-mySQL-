@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2019, 9:00:55 PM
+    Author     : Kphip
+*/
+
+
+#header1 {
+
+text-align: center;
+font-size: 40px;
+background: url("chalk.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    
+    
+ 
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+body {
+ background: url("chalk.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ background-color: #00ffff;
+}
+
+
+.welcome {
+    text-align: center;
+   
+}
+
+.paragraph{
+     text-align: center;
+}
+.slides {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 200px;
+    
+}
+.task{
+   position: relative;
+  left: 390px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+    
+    
+}
+.buttonsignup{
+   
+  background-color: white;
+  border: 3px solid #000000;
+  color: black;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 200px;
+  right: 0px;
+  bottom: 0px;
+  top: 50px;
+    
+}
+
+.buttonlogin {
+  background-color: white;
+  border: 3px solid #000000;
+  color: black;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0px 0px;
+  cursor: pointer;
+  position: relative;
+  left: 200px;
+  right: 0px;
+  bottom: 0px;
+  top: 50px;
+    
+}
+/* Footer */
+.footer {
+    
+    background: url("chalk.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 200px;
+  padding: 10px;
+  text-align: center;
+  
+  margin-top: 10px;
+}

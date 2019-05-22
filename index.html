@@ -1,0 +1,75 @@
+
+<html>
+<head>
+    <title>OPNBOX</title>
+     <link rel="stylesheet" href="indexstyle.css">
+ 
+</head>
+<body>
+ <header>
+    <div id = "header1"> <font size="9" color="white">OPNBOX</font>
+</div>
+<div class="topnav">
+  
+  <a href="login.html" style="float:right">Login</a>
+  <a href="form.html" style="float:right">Register</a>
+</div>    
+</header>   
+<!-- Slide Show -->
+
+<div class="row">
+    <div class = "column">
+        <h3><font size="7" color="white">Welcome To OPNBOX!</font></h3>
+      <p><font size="5" color="white"> OPNBOX is a free platform designed to 
+          aid teachers in developing communication and teamwork skills
+          among their students in the classroom. Providing students with a direct 
+          link to the classroom, OPNBOX uses cutting edge technology to deliver team 
+          based exams directly to the hands of the student. Educators who use OPNBOX
+          are equipped with tools that allow them to tailor questions directly to their
+          students needs, while also tracking their students overall progress. Think
+          outside the box, and dive right in!</font>
+ </p>
+    </div>
+    
+ <div class = "column2">
+     
+     <a href="form.html"><button class="buttonsignup"/>SIGN-UP</button></a>
+     
+     <a href="login.html"><button class="buttonlogin"/>LOGIN</button></a>
+    </div>
+</div>
+
+<div class = "slides">
+  
+  <img class="mySlides" src="opn2.jpg"
+  style="width:100%">
+  <img class="mySlides" src="opn3.jpg"
+  style="width:100%">
+</div>
+<footer>
+<div class="footer">
+  <h2><font color="white">TKR Technologies, 2019.</font></h2>
+</div>
+</footer>
+</body>
+</html>
+
+  <script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 10000);
+}
+</script>
+    
+         
